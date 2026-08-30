@@ -55,14 +55,12 @@ function PromptInput({
           ❯
         </ThemedText>
         <ThemedBox flexGrow={1} flexShrink={1} minWidth={0} marginLeft={1}>
-          <ThemedText wrap="truncate" color="text">
-            <TextInput
-              value={value}
-              onChange={onChange}
-              onSubmit={onSend}
-              placeholder={placeholder}
-            />
-          </ThemedText>
+          <TextInput
+            value={value}
+            onChange={onChange}
+            onSubmit={onSend}
+            placeholder={placeholder}
+          />
         </ThemedBox>
       </ThemedBox>
     </ThemedBox>
