@@ -48,8 +48,8 @@ type Message = { id: number; text: string }
 
 // ========== 固定高度常量 ==========
 const HEADER_H = 1
-const INPUT_H = 4
-const INPUT_MARGIN_BOTTOM = 1
+// PromptInput 组件自身高度为3（含边框），外加 marginBottom={1}，总计4行
+const INPUT_TOTAL_H = 4
 const FOOTER_H = 1
 const BODY_PAD_TOP = 1
 
@@ -89,7 +89,7 @@ function App(): React.ReactElement {
   // paddingTop 在 Body 内部消化，因此不额外扣除。
   const bodyHeight = Math.max(
     6,
-    rows - HEADER_H - INPUT_H - INPUT_MARGIN_BOTTOM - FOOTER_H,
+    rows - HEADER_H - INPUT_TOTAL_H - FOOTER_H,
   )
   const messageMaxHeight = Math.max(4, bodyHeight - BODY_PAD_TOP)
 
