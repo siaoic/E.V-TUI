@@ -51,7 +51,7 @@ function PromptInput({
       flexGrow={0}
     >
       {/* 输入行：真正的文本输入，占满剩余宽度并截断 */}
-      <ThemedBox flexDirection="row" height={1} flexShrink={0} alignItems="center">
+      <Box flexDirection="row" height={1} flexShrink={0} alignItems="center">
         <ThemedText color="permission" bold>
           ❯
         </ThemedText>
@@ -63,7 +63,7 @@ function PromptInput({
             placeholder={placeholder}
           />
         </Box>
-      </ThemedBox>
+      </Box>
     </ThemedBox>
   )
 }
