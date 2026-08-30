@@ -1,4 +1,4 @@
-```gitignore
+```
 # Dependencies
 node_modules/
 
@@ -38,12 +38,16 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
-*.tmp
+*~
 
-# Coverage
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
+
+# MyPy cache
+.mypy_cache/
+.pytest_cache/
 
 # Compressed files
 *.zip
