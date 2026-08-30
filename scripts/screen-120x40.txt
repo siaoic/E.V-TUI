@@ -1,0 +1,40 @@
+ ✦ Agent deepseek-tui · deepseek-v4-pro                                                                     max  ctx 0%
+
+
+                                                                                     ────────────…  Agent ────────────…
+
+                                                                                       ▶ Running
+                                                                                         Planning code changes...
+                                                                                         ━━━━━━━━━━━━
+
+    You  Hello! Welcome to the DeepSeek TUI.
+                                                                                     ────────────…  Tools ────────────…
+
+    ● done · 1.7s                                                                      No tool calls
+
+    ▸ thinking  done · 1.7s
+
+  ● Assistant Hello! Great to be here in the DeepSeek TUI project.
+    I'm your agentic coding assistant, ready to help with anything from code
+    exploration and bug
+    fixes to feature development. Here's what I can see of the workspace:
+    -         Project: DeepSeek TUI (Rust-based terminal UI for interacting with
+              DeepSeek models)
+    -         Key crates:  apps/ ,  crates/ , plus  npm/  and  python/
+              sub-projects
+    -         Current state: I can check git status, run builds, tests, etc.
+    What would you like to work on today? A few options:
+    1.        Explore the codebase - I can dig into specific areas or give you an
+               overview
+    2.        Fix a bug or implement a feature - point me at the issue or
+              describe what you need
+    3.        Review or refactor - I can analyze code quality, suggest
+              improvements, and make changes
+    4.        Build & test - kick off a build, run tests, or check lint
+    Or just tell me what's on your mind!
+ ╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+ │ Composer                                                                                                     [max] │
+ │ Write a task or use /.                                                                                             │
+ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+ agent · deepseek-v4-pro                              ████████████████████                             cache 67%  $0.00

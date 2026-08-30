@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["index.tsx", "src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["dsh-TUI-main/**", "node_modules/**", ".trae/**"]
+}

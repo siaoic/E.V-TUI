@@ -1,0 +1,30 @@
+ ✦ Agent deepseek-tui · deepseek-v4-pro                                                 max  ctx 0%
+
+  ↑ 4 older messages · ↑/↓ to scroll
+                                                                       ─────────…  Agent ─────────…
+
+                                                                         ▶ Running
+                                                                           Executing plan...
+                                                                           ━━━━━━━━━━━━
+
+
+                                                                       ─────────…  Tools ─────────…
+
+                                                                          read_file  executing...
+
+
+
+
+
+
+
+
+
+    You  Refactor the sidebar layout and add icons
+
+ ╭────────────────────────────────────────────────────────────────────────────────────────────────╮
+ │ Composer                                                                                 [max] │
+ │ Write a task or use /.                                                                         │
+ ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+ agent · deepseek-v4-pro                    ████████████████████                   cache 67%  $0.00
