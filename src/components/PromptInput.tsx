@@ -7,6 +7,7 @@
 //   - 改用 ink-text-input：由 Ink 统一管理 raw mode / 光标 / 焦点，
 //     正确支持退格、左右方向键移动光标、Enter 提交，且带占位文案。
 import React from 'react'
+import { Box } from 'ink'
 import TextInput from 'ink-text-input'
 import ThemedBox from './design-system/ThemedBox'
 import ThemedText from './design-system/ThemedText'
@@ -54,14 +55,14 @@ function PromptInput({
         <ThemedText color="permission" bold>
           ❯
         </ThemedText>
-        <ThemedBox flexGrow={1} flexShrink={1} minWidth={0} marginLeft={1}>
+        <Box flexGrow={1} flexShrink={1} minWidth={0} marginLeft={1}>
           <TextInput
             value={value}
             onChange={onChange}
             onSubmit={onSend}
             placeholder={placeholder}
           />
-        </ThemedBox>
+        </Box>
       </ThemedBox>
     </ThemedBox>
   )
